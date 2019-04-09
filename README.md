@@ -12,11 +12,11 @@
 python -m visdom
 2. Train the network 
 ```commandline
-python main.py --dataset_dir <main datasets path> --mode train --model_name HCN --dataset_name NTU-RGB-D-CV --num 01
+python main.py --dataset_dir <main datasets path> --mode train --model_name HCN --dataset_name <dataset name> --num 01
 ```
 3. Test the network
 ```commandline
-python main.py --dataset_dir <main datasets path> --mode test --load True --model_name HCN --dataset_name NTU-RGB-D-CV --num 01
+python main.py --dataset_dir <main datasets path> --mode test --load True --model_name HCN --dataset_name <dataset name> --num 01
 ```
 ## Data pre-processing
 The raw data should be transformed into numpy array (memmap format).
