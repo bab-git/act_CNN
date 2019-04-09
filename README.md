@@ -1,4 +1,4 @@
-# A deep learning framework for action recognition
+# A deep learning framework for activity recognition
 
 ## Requirements
 - Python 3.5
