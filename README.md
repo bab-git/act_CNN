@@ -1,4 +1,4 @@
-# A deep learning framework for action recognition.
+# A deep learning framework for action recognition
 
 ## Requirements
 - Python 3.5
@@ -8,13 +8,13 @@
 - other required packages are listed in `requirements.txt`
 
 ## How to use
-1- Start the visdom server by
+1. Start the visdom server by
 python -m visdom
-2- Train the network 
+2. Train the network 
 ```commandline
 python main.py --dataset_dir <main datasets path> --mode train --model_name HCN --dataset_name NTU-RGB-D-CV --num 01
 ```
-3- Test the network
+3. Test the network
 ```commandline
 python main.py --dataset_dir <main datasets path> --mode test --load True --model_name HCN --dataset_name NTU-RGB-D-CV --num 01
 ```
